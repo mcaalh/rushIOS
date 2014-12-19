@@ -14,6 +14,7 @@
 		43B920061A44B4C1000E9245 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B920051A44B4C1000E9245 /* Images.xcassets */; };
 		43B920091A44B4C1000E9245 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43B920071A44B4C1000E9245 /* LaunchScreen.xib */; };
 		43B920151A44B4C1000E9245 /* myFirstIOSappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B920141A44B4C1000E9245 /* myFirstIOSappTests.swift */; };
+		43B9201F1A44B564000E9245 /* swift_tut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43B9201E1A44B564000E9245 /* swift_tut.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		43B9200E1A44B4C1000E9245 /* myFirstIOSappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFirstIOSappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B920131A44B4C1000E9245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43B920141A44B4C1000E9245 /* myFirstIOSappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFirstIOSappTests.swift; sourceTree = "<group>"; };
+		43B9201E1A44B564000E9245 /* swift_tut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = swift_tut.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		43B91FFA1A44B4C1000E9245 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				43B9201E1A44B564000E9245 /* swift_tut.jpg */,
 				43B91FFB1A44B4C1000E9245 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43B920041A44B4C1000E9245 /* Main.storyboard in Resources */,
+				43B9201F1A44B564000E9245 /* swift_tut.jpg in Resources */,
 				43B920091A44B4C1000E9245 /* LaunchScreen.xib in Resources */,
 				43B920061A44B4C1000E9245 /* Images.xcassets in Resources */,
 			);
