@@ -35,6 +35,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
         if indexPath.row == 0
         {
             println("table 1")
