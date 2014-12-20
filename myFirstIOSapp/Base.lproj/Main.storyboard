@@ -40,7 +40,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="First" image="left-32.png" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="tableView" destination="Tem-kK-XeH" id="Zqh-Q2-tt2"/>
                     </connections>
@@ -61,6 +61,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" placeholderIntrinsicWidth="375" placeholderIntrinsicHeight="667" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hNP-jB-Uke">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                </variation>
+                            </mapView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Vjr-Uw-ac5">
                                 <rect key="frame" x="-61" y="-14" width="123" height="29"/>
                                 <segments>
@@ -69,34 +75,29 @@
                                     <segment title="Hybride"/>
                                 </segments>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="163" y="580" width="209" height="29"/>
+                                    <rect key="frame" x="45" y="569" width="284" height="29"/>
                                 </variation>
                                 <connections>
                                     <action selector="buttonPressed:" destination="8rJ-Kc-sve" eventType="valueChanged" id="R94-sd-ov7"/>
                                 </connections>
                             </segmentedControl>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" placeholderIntrinsicWidth="375" placeholderIntrinsicHeight="667" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hNP-jB-Uke">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="20" width="375" height="552"/>
-                                </variation>
-                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="Vjr-Uw-ac5"/>
                                 <exclude reference="hNP-jB-Uke"/>
+                                <exclude reference="Vjr-Uw-ac5"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="Vjr-Uw-ac5"/>
                                 <include reference="hNP-jB-Uke"/>
+                                <include reference="Vjr-Uw-ac5"/>
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Second" image="right-32.png" id="cPa-gy-q4n"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="buttonMap" destination="Vjr-Uw-ac5" id="TRC-dV-4UC"/>
                         <outlet property="mapview" destination="hNP-jB-Uke" id="7QF-Qt-477"/>
@@ -104,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="756" y="381"/>
+            <point key="canvasLocation" x="759.75" y="378.375"/>
         </scene>
         <!--Item-->
         <scene sceneID="JUd-Qe-8RK">
@@ -119,7 +120,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="HRU-ed-I1n"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="star-32.png" id="HRU-ed-I1n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SeQ-HU-wtN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -147,7 +148,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="left-32.png" width="32" height="32"/>
+        <image name="right-32.png" width="32" height="32"/>
+        <image name="star-32.png" width="32" height="32"/>
     </resources>
 </document>

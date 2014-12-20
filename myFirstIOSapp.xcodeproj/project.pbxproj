@@ -13,6 +13,9 @@
 		4358F2451A45F7C600329361 /* 1419121806_windows-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 4358F2431A45F7C600329361 /* 1419121806_windows-32.png */; };
 		4358F2461A45F7C600329361 /* 1419121794_durex-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 4358F2441A45F7C600329361 /* 1419121794_durex-32.png */; };
 		4358F2801A46141C00329361 /* a60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 4358F27F1A46141C00329361 /* a60x60.png */; };
+		4363768B1A462E08000FBDEF /* left-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 436376881A462E08000FBDEF /* left-32.png */; };
+		4363768C1A462E08000FBDEF /* right-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 436376891A462E08000FBDEF /* right-32.png */; };
+		4363768D1A462E08000FBDEF /* star-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 4363768A1A462E08000FBDEF /* star-32.png */; };
 		43B91FFD1A44B4C1000E9245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B91FFC1A44B4C1000E9245 /* AppDelegate.swift */; };
 		43B91FFF1A44B4C1000E9245 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B91FFE1A44B4C1000E9245 /* FirstViewController.swift */; };
 		43B920011A44B4C1000E9245 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B920001A44B4C1000E9245 /* SecondViewController.swift */; };
@@ -40,6 +43,9 @@
 		4358F2431A45F7C600329361 /* 1419121806_windows-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1419121806_windows-32.png"; sourceTree = "<group>"; };
 		4358F2441A45F7C600329361 /* 1419121794_durex-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1419121794_durex-32.png"; sourceTree = "<group>"; };
 		4358F27F1A46141C00329361 /* a60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a60x60.png; sourceTree = "<group>"; };
+		436376881A462E08000FBDEF /* left-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-32.png"; sourceTree = "<group>"; };
+		436376891A462E08000FBDEF /* right-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-32.png"; sourceTree = "<group>"; };
+		4363768A1A462E08000FBDEF /* star-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-32.png"; sourceTree = "<group>"; };
 		43B91FF71A44B4C1000E9245 /* myFirstIOSapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFirstIOSapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B91FFB1A44B4C1000E9245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43B91FFC1A44B4C1000E9245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				4358F27F1A46141C00329361 /* a60x60.png */,
+				436376881A462E08000FBDEF /* left-32.png */,
+				436376891A462E08000FBDEF /* right-32.png */,
+				4363768A1A462E08000FBDEF /* star-32.png */,
 				4358F2431A45F7C600329361 /* 1419121806_windows-32.png */,
 				4358F2441A45F7C600329361 /* 1419121794_durex-32.png */,
 				4358F23F1A45CAFD00329361 /* android87x87.png */,
@@ -217,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43B920041A44B4C1000E9245 /* Main.storyboard in Resources */,
+				4363768B1A462E08000FBDEF /* left-32.png in Resources */,
+				4363768C1A462E08000FBDEF /* right-32.png in Resources */,
 				43B9201F1A44B564000E9245 /* swift_tut.jpg in Resources */,
 				4358F2461A45F7C600329361 /* 1419121794_durex-32.png in Resources */,
 				4358F2801A46141C00329361 /* a60x60.png in Resources */,
@@ -224,6 +235,7 @@
 				43B920091A44B4C1000E9245 /* LaunchScreen.xib in Resources */,
 				4358F2451A45F7C600329361 /* 1419121806_windows-32.png in Resources */,
 				4358F23E1A45CA4D00329361 /* android_platform_256.png in Resources */,
+				4363768D1A462E08000FBDEF /* star-32.png in Resources */,
 				43B920061A44B4C1000E9245 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
