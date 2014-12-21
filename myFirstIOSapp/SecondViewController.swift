@@ -51,16 +51,29 @@ class SecondViewController: UIViewController, MKMapViewDelegate, CLLocationManag
         mapview.addGestureRecognizer(longPress)
         
         let theSpan2:MKCoordinateSpan = MKCoordinateSpanMake(0.0001 , 0.01)
-        let location2:CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 48.897583, longitude: 2.319899)
+        let location2:CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 48.820958, longitude: 2.338621)
         let theRegion2:MKCoordinateRegion = MKCoordinateRegionMake(location, theSpan)
         
-        mapview.setRegion(theRegion, animated: true)
+        mapview.setRegion(theRegion2, animated: true)
         
         var anotation2 = MKPointAnnotation()
         anotation2.coordinate = location2
-        anotation2.title = "test"
-        anotation2.subtitle = "test"
+        anotation2.title = "CUI"
+        anotation2.subtitle = "Cité Universitaire Internationale de Paris"
         mapview.addAnnotation(anotation2)
+        
+        let theSpan3:MKCoordinateSpan = MKCoordinateSpanMake(0.0001 , 0.01)
+        let location3:CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 48.820958, longitude: 2.338621)
+        let theRegion3:MKCoordinateRegion = MKCoordinateRegionMake(location, theSpan)
+        
+        mapview.setRegion(theRegion3, animated: true)
+        
+        var anotation3 = MKPointAnnotation()
+        anotation3.coordinate = location2
+        anotation3.title = "Jussieu"
+        anotation3.subtitle = "Campus de Jussieu"
+        mapview.addAnnotation(anotation3)
+
 
         
         }
