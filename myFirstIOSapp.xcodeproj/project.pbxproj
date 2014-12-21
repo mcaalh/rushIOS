@@ -24,6 +24,8 @@
 		43B920091A44B4C1000E9245 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43B920071A44B4C1000E9245 /* LaunchScreen.xib */; };
 		43B920151A44B4C1000E9245 /* myFirstIOSappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B920141A44B4C1000E9245 /* myFirstIOSappTests.swift */; };
 		43B9201F1A44B564000E9245 /* swift_tut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43B9201E1A44B564000E9245 /* swift_tut.jpg */; };
+		54730D231A4667F20040CE2E /* android_platform_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 54730D221A4667F20040CE2E /* android_platform_256.png */; };
+		54730D251A46681E0040CE2E /* a120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 54730D241A46681E0040CE2E /* a120x120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		43B920131A44B4C1000E9245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43B920141A44B4C1000E9245 /* myFirstIOSappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFirstIOSappTests.swift; sourceTree = "<group>"; };
 		43B9201E1A44B564000E9245 /* swift_tut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = swift_tut.jpg; sourceTree = "<group>"; };
+		54730D221A4667F20040CE2E /* android_platform_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android_platform_256.png; sourceTree = "<group>"; };
+		54730D241A46681E0040CE2E /* a120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a120x120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 		43B91FFA1A44B4C1000E9245 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				54730D241A46681E0040CE2E /* a120x120.png */,
+				54730D221A4667F20040CE2E /* android_platform_256.png */,
 				4358F27F1A46141C00329361 /* a60x60.png */,
 				436376881A462E08000FBDEF /* left-32.png */,
 				436376891A462E08000FBDEF /* right-32.png */,
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54730D251A46681E0040CE2E /* a120x120.png in Resources */,
 				43B920041A44B4C1000E9245 /* Main.storyboard in Resources */,
 				4363768B1A462E08000FBDEF /* left-32.png in Resources */,
 				4363768C1A462E08000FBDEF /* right-32.png in Resources */,
@@ -236,6 +243,7 @@
 				4358F2451A45F7C600329361 /* 1419121806_windows-32.png in Resources */,
 				4358F23E1A45CA4D00329361 /* android_platform_256.png in Resources */,
 				4363768D1A462E08000FBDEF /* star-32.png in Resources */,
+				54730D231A4667F20040CE2E /* android_platform_256.png in Resources */,
 				43B920061A44B4C1000E9245 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
