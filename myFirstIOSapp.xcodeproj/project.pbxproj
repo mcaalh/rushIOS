@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4358F23E1A45CA4D00329361 /* android_platform_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 4358F23D1A45CA4D00329361 /* android_platform_256.png */; };
 		4358F2401A45CAFD00329361 /* android87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 4358F23F1A45CAFD00329361 /* android87x87.png */; };
 		4358F2421A45CC9100329361 /* Villes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4358F2411A45CC9100329361 /* Villes.swift */; };
 		4358F2451A45F7C600329361 /* 1419121806_windows-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 4358F2431A45F7C600329361 /* 1419121806_windows-32.png */; };
@@ -39,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4358F23D1A45CA4D00329361 /* android_platform_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android_platform_256.png; sourceTree = "<group>"; };
 		4358F23F1A45CAFD00329361 /* android87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android87x87.png; sourceTree = "<group>"; };
 		4358F2411A45CC9100329361 /* Villes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Villes.swift; sourceTree = "<group>"; };
 		4358F2431A45F7C600329361 /* 1419121806_windows-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1419121806_windows-32.png"; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 				4358F2431A45F7C600329361 /* 1419121806_windows-32.png */,
 				4358F2441A45F7C600329361 /* 1419121794_durex-32.png */,
 				4358F23F1A45CAFD00329361 /* android87x87.png */,
-				4358F23D1A45CA4D00329361 /* android_platform_256.png */,
 				43B9201E1A44B564000E9245 /* swift_tut.jpg */,
 				43B91FFB1A44B4C1000E9245 /* Info.plist */,
 			);
@@ -241,7 +238,6 @@
 				4358F2401A45CAFD00329361 /* android87x87.png in Resources */,
 				43B920091A44B4C1000E9245 /* LaunchScreen.xib in Resources */,
 				4358F2451A45F7C600329361 /* 1419121806_windows-32.png in Resources */,
-				4358F23E1A45CA4D00329361 /* android_platform_256.png in Resources */,
 				4363768D1A462E08000FBDEF /* star-32.png in Resources */,
 				54730D231A4667F20040CE2E /* android_platform_256.png in Resources */,
 				43B920061A44B4C1000E9245 /* Images.xcassets in Resources */,

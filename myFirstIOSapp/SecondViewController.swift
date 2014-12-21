@@ -13,7 +13,8 @@ import CoreLocation
 class SecondViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
 
     
-    @IBOutlet var mapview: MKMapView!
+    
+    @IBOutlet weak var mapview: MKMapView!
     
     
     @IBOutlet weak var buttonMap: UISegmentedControl!
